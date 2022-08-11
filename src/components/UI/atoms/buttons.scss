@@ -1,0 +1,17 @@
+.btn {
+  border: none;
+  color: $pri_white;
+  text-align: center;
+  text-decoration: none;
+  background-color: $pri_pink;
+  font-family: $text_font;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 16px 26px;
+  border-radius: 28px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $sec_pink;
+  }
+}
