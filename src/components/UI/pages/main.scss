@@ -1,6 +1,33 @@
 @import "../../../settings/colorsAndFonts.scss";
 @import "../../../settings/normalize.scss";
 
-@import "../atoms/navOptions.scss";
+@import "../atoms/styles/navOptions.scss";
+@import "../atoms/styles/buttons.scss";
+@import "../atoms/styles/burgerMenu.scss";
+@import "../atoms/styles/homePhone.scss";
+
 @import "../molecules/navBar.scss";
-@import "../atoms/buttons.scss";
+@import "../organisms/home.scss";
+
+body {
+  background-color: $page_color;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 780px;
+    height: 780px;
+    background-color: $sec_blue;
+
+    border-radius: 50%;
+    opacity: 15%;
+    // bottom: 80%;
+    // bottom: 0;
+    // left: 50%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+}
