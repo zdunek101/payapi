@@ -49,3 +49,9 @@
 // .menu__btn.open {
 //   opacity: 0;
 // }
+
+@media (min-width: 600px) {
+  .menu__btn {
+    display: none;
+  }
+}

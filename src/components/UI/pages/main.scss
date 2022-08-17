@@ -12,22 +12,4 @@
 body {
   background-color: $page_color;
   position: relative;
-
-  &::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 780px;
-    height: 780px;
-    background-color: $sec_blue;
-
-    border-radius: 50%;
-    opacity: 15%;
-    // bottom: 80%;
-    // bottom: 0;
-    // left: 50%;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-  }
 }
