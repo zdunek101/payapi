@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 const BurgerMenu = ({ status, HandleClick }) => {
   return (
     <>
-      <div className={`menu__btn ${status}`} role="button" onClick={HandleClick}>
+      <div className={`menu__burger ${status}`} role="button" onClick={HandleClick}>
         <span> </span>
         <span> </span>
         <span> </span>

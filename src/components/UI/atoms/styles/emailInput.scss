@@ -1,0 +1,21 @@
+.emailInput {
+  border: none;
+  //   color: $pri_white;
+  background-color: $pri_white;
+  font-family: $text_font;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 16px 0;
+  border-radius: 28px;
+  width: 320px;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+
+  &::placeholder {
+    font-size: 15px;
+    color: rgba(54, 83, 107, 0.5);
+    // padding-left: 27px;
+
+    text-align: left;
+  }
+}

@@ -1,4 +1,10 @@
 .home__image {
   width: 33.333%;
   height: auto;
+  margin-bottom: 24px;
+
+  @media (min-width: 1200px) {
+    grid-column: right;
+    place-self: center;
+  }
 }

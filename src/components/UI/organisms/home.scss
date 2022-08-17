@@ -1,6 +1,46 @@
 .home__container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 32px 0 0 0;
+}
+
+.home__container--supp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__text {
+  font-size: 15px;
+  font-family: $text_font;
+  color: $sec_blue;
+  font-weight: 400;
+}
+
+.home__text--link {
+  font-size: 15px;
+  font-family: $text_font;
+  color: $sec_blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .home__container {
+    display: grid;
+    grid-template-columns: [left] 50% [right] 50%;
+    grid-auto-flow: column;
+  }
+  .home__container--supp {
+    grid-column: left;
+    justify-content: left;
+  }
+
+  .home__text {
+    width: 415px;
+    padding-left: 27px;
+  }
 }

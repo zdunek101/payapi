@@ -1,4 +1,4 @@
-.btn {
+[class*="__btn"] {
   border: none;
   color: $pri_white;
   text-align: center;
@@ -17,15 +17,16 @@
 }
 
 @media (min-width: 600px) {
-  .btn {
+  [class*="__btn"] {
     font-size: 14px;
     padding: 13px 20px;
     margin-right: 10px;
+    margin-top: 0;
   }
 }
 
 @media (min-width: 700px) {
-  .btn {
+  [class*="__btn"] {
     font-size: 15px;
     padding: 16px 26px;
     margin-right: 40px;

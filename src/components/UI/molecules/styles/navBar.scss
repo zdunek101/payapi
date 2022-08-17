@@ -60,12 +60,17 @@
 //tablet
 
 @media (min-width: 600px) {
+  .navBar {
+    grid-template-columns: 20% 80%;
+  }
   .navBar__options {
     flex-direction: row;
     background-color: transparent;
     align-items: flex-start;
     justify-content: end;
     margin-top: 35px;
+    position: relative;
+    height: auto;
   }
 
   .navBar__options.close {

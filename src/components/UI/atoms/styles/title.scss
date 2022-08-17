@@ -1,0 +1,25 @@
+[class*="__title"] {
+  font-family: $title_font;
+  font-size: 32px;
+  font-weight: 400;
+  color: $sec_blue;
+  text-align: center;
+  margin: 0 24px;
+}
+
+.home__title {
+  margin-bottom: 24px;
+
+  @media (min-width: 600px) {
+    font-size: 48px;
+
+    margin: 0 96px 22px 96px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 72px;
+    text-align: left;
+
+    margin: 0 96px 22px 96px;
+  }
+}
