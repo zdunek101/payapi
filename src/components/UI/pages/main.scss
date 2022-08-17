@@ -1,3 +1,18 @@
+@mixin backgroundCircle($zIndex: -1) {
+  content: "";
+  position: absolute;
+  z-index: $zIndex;
+  width: 780px;
+  height: 780px;
+  background-color: $sec_blue;
+
+  border-radius: 50%;
+  opacity: 15%;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
 @import "../../../settings/colorsAndFonts.scss";
 @import "../../../settings/normalize.scss";
 
@@ -7,11 +22,13 @@
 @import "../atoms/styles/homePhone.scss";
 @import "../atoms/styles//title.scss";
 @import "../atoms//styles//emailInput.scss";
+@import "../atoms/styles/partner.scss";
 
 @import "../molecules/styles/navBar.scss";
 @import "../molecules/styles/formDemo.scss";
 
-@import "../organisms/home.scss";
+@import "../organisms/styles/home.scss";
+@import "../organisms//styles/partners.scss";
 
 body {
   background-color: $page_color;

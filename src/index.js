@@ -5,6 +5,7 @@ import "./components/UI/pages/main.scss";
 import App from "./App";
 import NavBar from "./components/UI/molecules/NavBar";
 import Home from "./components/UI/pages/home/Home";
+import Partners from "./components/UI/organisms/Partners";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,5 +15,6 @@ root.render(
       <Route path="/" element={<App />}></Route>
     </Routes>
     <Home />
+    <Partners />
   </BrowserRouter>
 );
