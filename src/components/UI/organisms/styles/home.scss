@@ -13,13 +13,6 @@
   justify-content: center;
 }
 
-.home__text {
-  font-size: 15px;
-  font-family: $text_font;
-  color: $sec_blue;
-  font-weight: 400;
-}
-
 .home__text--link {
   font-size: 15px;
   font-family: $text_font;
@@ -33,14 +26,18 @@
     display: grid;
     grid-template-columns: [left] 50% [right] 50%;
     grid-auto-flow: column;
+    margin-top: 80px;
   }
   .home__container--supp {
     grid-column: left;
     justify-content: left;
+    align-items: center;
   }
+}
 
-  .home__text {
-    width: 415px;
-    padding-left: 27px;
+@media (min-width: 1620px) {
+  .home__container--supp {
+    align-items: baseline;
+    margin: 0 auto;
   }
 }

@@ -1,15 +1,15 @@
 import React from "react";
 
-const NavOptions = () => {
+const NavOptions = ({ modification }) => {
   return (
-    <ul className="navOptions">
-      <li className="navOptions__item">
+    <ul className={`navOptions${modification}`}>
+      <li className={`navOptions__item${modification}`}>
         <a href="/">Pricing</a>
       </li>
-      <li className="navOptions__item">
+      <li className={`navOptions__item${modification}`}>
         <a href="/">About</a>
       </li>
-      <li className="navOptions__item">
+      <li className={`navOptions__item${modification}`}>
         <a href="/">Contact</a>
       </li>
     </ul>

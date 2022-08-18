@@ -34,7 +34,7 @@ const NavBar = () => {
         </span>
         <span className={`navBar__options ${className === "" ? status : className}`} ref={node}>
           <BurgerMenu status={status} HandleClick={handleClick} />
-          <NavOptions />
+          <NavOptions modification={""} />
           <Buttons component={"navBar"} text={"Schedule a Demo"} />
         </span>
       </nav>

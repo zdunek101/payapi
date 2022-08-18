@@ -6,6 +6,8 @@ import App from "./App";
 import NavBar from "./components/UI/molecules/NavBar";
 import Home from "./components/UI/pages/home/Home";
 import Partners from "./components/UI/organisms/Partners";
+import Info from "./components/UI/organisms/Info";
+import Footer from "./components/UI/organisms/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,5 +18,7 @@ root.render(
     </Routes>
     <Home />
     <Partners />
+    <Info />
+    <Footer />
   </BrowserRouter>
 );

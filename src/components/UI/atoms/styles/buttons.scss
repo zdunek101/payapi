@@ -1,4 +1,4 @@
-[class*="__btn"] {
+[class$="__btn"] {
   border: none;
   color: $pri_white;
   text-align: center;
@@ -9,6 +9,7 @@
   font-weight: 700;
   padding: 16px 26px;
   border-radius: 28px;
+  align-self: center;
 
   &:hover {
     cursor: pointer;
@@ -16,19 +17,56 @@
   }
 }
 
+.partners__btn {
+  background-color: transparent;
+  border: 1px solid $pri_white;
+  margin-bottom: 80px;
+
+  .partners__btn__link {
+    background-color: transparent;
+    text-decoration: none;
+
+    &:visited {
+      color: $pri_white;
+    }
+  }
+}
+
 @media (min-width: 600px) {
-  [class*="__btn"] {
+  [class$="__btn"] {
     font-size: 14px;
     padding: 13px 20px;
     margin-right: 10px;
     margin-top: 0;
   }
+
+  .partners__btn__link {
+    margin-right: 0;
+    font-size: 14px;
+    padding: 13px 20px;
+  }
+  .partners__btn {
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 700px) {
-  [class*="__btn"] {
+  [class$="__btn"] {
     font-size: 15px;
     padding: 16px 26px;
     margin-right: 40px;
+  }
+
+  .partners__btn {
+    margin-right: 0;
+  }
+  .partners__btn__link {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .partners__btn {
+    align-self: self-start;
   }
 }

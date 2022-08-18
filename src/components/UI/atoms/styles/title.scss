@@ -5,21 +5,57 @@
   color: $sec_blue;
   text-align: center;
   margin: 0 24px;
+
+  @media (min-width: 600px) {
+    font-size: 48px;
+  }
+  @media (min-width: 1200px) {
+    text-align: left;
+    margin: 0;
+  }
 }
 
 .home__title {
   margin-bottom: 24px;
 
   @media (min-width: 600px) {
-    font-size: 48px;
-
     margin: 0 96px 22px 96px;
   }
 
   @media (min-width: 1200px) {
-    font-size: 72px;
     text-align: left;
-
     margin: 0 96px 22px 96px;
+    max-width: 590px;
+    font-size: 72px;
+  }
+
+  @media (min-width: 1620px) {
+    margin: 0 0 22px 0;
+  }
+}
+
+.partners__title {
+  color: $pri_white;
+  margin-top: 56px;
+  margin-bottom: 16px;
+
+  @media (min-width: 600px) {
+    margin-top: 64px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-top: 100px;
+  }
+}
+
+.info__implement__title {
+  font-size: 36px;
+  margin: 48px 15px 24px 15px;
+  text-align: center;
+
+  @media (min-width: 1280px) {
+    margin-left: 0;
+    font-size: 48px;
+    text-align: left;
   }
 }

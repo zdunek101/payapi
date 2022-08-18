@@ -8,10 +8,10 @@
   padding-left: 27px;
 }
 
-.form__btn {
+.formDemo__btn {
   padding: 16px 0;
-  width: 320px;
   margin-top: 16px;
+  align-self: auto;
 }
 
 @media (min-width: 600px) {
@@ -26,7 +26,7 @@
     width: 100%;
   }
 
-  .form__btn {
+  .formDemo__btn {
     margin-right: 0;
     margin-top: 0;
     height: 48px;
