@@ -5,7 +5,7 @@ import "./components/UI/pages/main.scss";
 // import App from "./App";
 import NavBar from "./components/UI/molecules/NavBar";
 import Home from "./components/UI/pages/home/Home";
-import Pricing from "./components/UI/pages/Pricing";
+import Pricing from "./components/UI/pages/pricing/Pricing";
 import Footer from "./components/UI/organisms/Footer";
 import About from "./components/UI/pages/About";
 import Contact from "./components/UI/pages/Contact";
