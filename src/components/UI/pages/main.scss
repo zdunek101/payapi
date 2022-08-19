@@ -10,15 +10,18 @@
 @import "../atoms//styles/text.scss";
 @import "../atoms//styles//emailInput.scss";
 @import "../atoms/styles/svgImage.scss";
-
+@import "../atoms//styles/listItem.scss";
 @import "../molecules/styles/navBar.scss";
 @import "../molecules/styles/formDemo.scss";
 @import "../molecules/styles/svgInfo.scss";
+@import "../molecules/styles/planBenefits.scss";
 
 @import "../organisms/home/styles/opening.scss";
 @import "../organisms/home/styles/partners.scss";
 @import "../organisms/home/styles/info.scss";
 @import "../organisms//styles//footer.scss";
+@import "../organisms/pricing/styles/plan.scss";
+@import "../pages/pricing/pricing.scss";
 
 body {
   background-color: $page_color;
