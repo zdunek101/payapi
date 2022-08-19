@@ -1,20 +1,6 @@
-@mixin backgroundCircle($zIndex: -1) {
-  content: "";
-  position: absolute;
-  z-index: $zIndex;
-  width: 780px;
-  height: 780px;
-  background-color: $sec_blue;
-
-  border-radius: 50%;
-  opacity: 15%;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -70%);
-}
-
 @import "../../../settings/colorsAndFonts.scss";
 @import "../../../settings/normalize.scss";
+@import "../../../settings/mixins.scss";
 
 @import "../atoms/styles/navOptions.scss";
 @import "../atoms/styles/buttons.scss";
@@ -29,9 +15,9 @@
 @import "../molecules/styles/formDemo.scss";
 @import "../molecules/styles/svgInfo.scss";
 
-@import "../organisms/styles/home.scss";
-@import "../organisms/styles/partners.scss";
-@import "../organisms/styles/info.scss";
+@import "../organisms/home/styles/opening.scss";
+@import "../organisms/home/styles/partners.scss";
+@import "../organisms/home/styles/info.scss";
 @import "../organisms//styles//footer.scss";
 
 body {

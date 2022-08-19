@@ -1,15 +1,15 @@
 import React from "react";
-import SvgImage from "../atoms/SvgImage";
-import Title from "../atoms/Title";
-import Text from "../atoms/Text";
+import SvgImage from "../../atoms/SvgImage";
+import Title from "../../atoms/Title";
+import Text from "../../atoms/Text";
 
-import tesla from "../../files/assets/shared/desktop/tesla.svg";
-import microsoft from "../../files/assets/shared/desktop/microsoft.svg";
-import hp from "../../files/assets/shared/desktop/hewlett-packard.svg";
-import oracle from "../../files/assets/shared/desktop/oracle.svg";
-import google from "../../files/assets/shared/desktop/google.svg";
-import nvidia from "../../files/assets/shared/desktop/nvidia.svg";
-import Buttons from "../atoms/Buttons";
+import tesla from "../../../files/assets/shared/desktop/tesla.svg";
+import microsoft from "../../../files/assets/shared/desktop/microsoft.svg";
+import hp from "../../../files/assets/shared/desktop/hewlett-packard.svg";
+import oracle from "../../../files/assets/shared/desktop/oracle.svg";
+import google from "../../../files/assets/shared/desktop/google.svg";
+import nvidia from "../../../files/assets/shared/desktop/nvidia.svg";
+import Buttons from "../../atoms/Buttons";
 
 const Partners = () => {
   return (

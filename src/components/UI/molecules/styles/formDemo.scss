@@ -1,6 +1,12 @@
 [class*="__form"] {
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 600px) {
+    position: relative;
+    flex-direction: row;
+    width: 440px;
+  }
 }
 .emailInput[type="email"] {
   color: $sec_blue;
@@ -12,26 +18,20 @@
   padding: 16px 0;
   margin-top: 16px;
   align-self: auto;
-}
-
-@media (min-width: 600px) {
-  [class*="__form"] {
-    position: relative;
-    flex-direction: row;
-    width: 440px;
-  }
-  .emailInput {
-    padding: 0;
-    height: 48px;
-    width: 100%;
-  }
-
-  .formDemo__btn {
+  @media (min-width: 600px) {
     margin-right: 0;
     margin-top: 0;
     height: 48px;
     width: 40%;
     position: absolute;
     right: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .emailInput {
+    padding: 0;
+    height: 48px;
+    width: 100%;
   }
 }

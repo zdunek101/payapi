@@ -1,0 +1,20 @@
+@mixin backgroundCircle($zIndex: -1) {
+  content: "";
+  position: absolute;
+  z-index: $zIndex;
+  width: 780px;
+  height: 780px;
+  background-color: $sec_blue;
+
+  border-radius: 50%;
+  opacity: 15%;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+@mixin infoText() {
+  text-align: center;
+  color: $sec_blue_light;
+  max-width: 420px;
+}

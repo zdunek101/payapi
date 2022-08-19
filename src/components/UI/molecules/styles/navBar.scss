@@ -1,5 +1,9 @@
 .logo {
   margin: 40px 0 0 25px;
+
+  @media (min-width: 1280px) {
+    margin: 45px 0 0 165px;
+  }
 }
 
 .navBar {
@@ -23,6 +27,13 @@
       transform: translate(0%, -23%);
     }
   }
+
+  @media (min-width: 600px) {
+    grid-template-columns: 20% 80%;
+  }
+  @media (min-width: 1280px) {
+    grid-template-columns: 30% 70%;
+  }
 }
 
 .navBar__options {
@@ -34,26 +45,15 @@
   height: 100vh;
   width: 80vw;
   z-index: 2;
-
   position: fixed;
   right: 0;
-}
-
-.navBar__options {
   transition: 0.5s ease-in-out;
-}
 
-.navBar__options.close {
-  right: -500px;
-}
-
-//tablet
-
-@media (min-width: 600px) {
-  .navBar {
-    grid-template-columns: 20% 80%;
+  &.close {
+    right: -500px;
   }
-  .navBar__options {
+
+  @media (min-width: 600px) {
     flex-direction: row;
     background-color: transparent;
     align-items: flex-start;
@@ -63,21 +63,7 @@
     height: auto;
   }
 
-  .navBar__options.close {
-    display: none;
-  }
-}
-
-//desktop
-
-@media (min-width: 1280px) {
-  .navBar {
-    grid-template-columns: 30% 70%;
-  }
-  .logo {
-    margin: 45px 0 0 165px;
-  }
-  .navBar__options {
+  @media (min-width: 1200px) {
     justify-content: space-between;
     position: relative;
     width: auto;

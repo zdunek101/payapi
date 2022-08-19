@@ -1,13 +1,13 @@
 import React from "react";
-import SvgInfo from "../molecules/SvgInfo";
+import SvgInfo from "../../molecules/SvgInfo";
 
-import implement from "../../files/assets/home/desktop/illustration-easy-to-implement-v2.svg";
-import simpleUi from "../../files/assets/home/desktop/illustration-simple-ui.svg";
-import finance from "../../files/assets/home/desktop/icon-personal-finances.svg";
-import banking from "../../files/assets/home/desktop/icon-banking-and-coverage.svg";
-import payments from "../../files/assets/home/desktop/icon-consumer-payments.svg";
-import FormDemo from "../molecules/FormDemo";
-import Title from "../atoms/Title";
+import implement from "../../../files/assets/home/desktop/illustration-easy-to-implement-v2.svg";
+import simpleUi from "../../../files/assets/home/desktop/illustration-simple-ui.svg";
+import finance from "../../../files/assets/home/desktop/icon-personal-finances.svg";
+import banking from "../../../files/assets/home/desktop/icon-banking-and-coverage.svg";
+import payments from "../../../files/assets/home/desktop/icon-consumer-payments.svg";
+import FormDemo from "../../molecules/FormDemo";
+import Title from "../../atoms/Title";
 
 const Info = () => {
   return (

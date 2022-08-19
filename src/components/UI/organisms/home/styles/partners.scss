@@ -1,0 +1,153 @@
+//Container
+.partners__container {
+  background-color: $sec_blue_dark;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    @include backgroundCircle(0);
+
+    @media (min-width: 600px) {
+      width: 950px;
+      height: 950px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 780px;
+      height: 780px;
+      transform: translate(-120%, -47%);
+    }
+  }
+
+  @media (min-width: 1290px) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+/*
+
+
+*/
+//Logo
+.partners__logo {
+  display: grid;
+  padding-top: 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  @media (min-width: 600px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  @media (min-width: 700px) {
+    margin: 0 115px;
+  }
+
+  @media (min-width: 1280px) {
+    margin: 0;
+    padding-top: 0;
+    column-gap: 65px;
+    row-gap: 55px;
+  }
+}
+/*
+
+
+*/
+//Info
+.partners__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 1280px) {
+    align-items: start;
+  }
+}
+/*
+
+
+*/
+//Button
+.partners__btn {
+  background-color: transparent;
+  border: 1px solid $pri_white;
+  margin-bottom: 80px;
+
+  .partners__btn__link {
+    background-color: transparent;
+    text-decoration: none;
+    &:visited {
+      color: $pri_white;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .partners__btn__link {
+      margin-right: 0;
+      font-size: 14px;
+      padding: 13px 20px;
+    }
+    .partners__btn {
+      margin-right: 0;
+    }
+  }
+  @media (min-width: 700px) {
+    .partners__btn {
+      margin-right: 0;
+    }
+    .partners__btn__link {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .partners__btn {
+      align-self: self-start;
+    }
+  }
+}
+/*
+
+
+*/
+//Text
+
+.partners__text {
+  margin: 0 30px 32px 30px;
+  opacity: 70%;
+  color: $pri_white;
+  text-align: center;
+
+  @media (min-width: 600px) {
+    width: 420px;
+  }
+
+  @media (min-width: 1200px) {
+    margin: 0 0 32px 0;
+    text-align: left;
+  }
+}
+
+/*
+
+
+*/
+//Title
+.partners__title {
+  color: $pri_white;
+  margin-top: 56px;
+  margin-bottom: 16px;
+
+  @media (min-width: 600px) {
+    margin-top: 64px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-top: 100px;
+  }
+}

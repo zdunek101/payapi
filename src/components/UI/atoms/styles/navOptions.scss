@@ -1,27 +1,19 @@
 [class^="navOptions"] {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  // width: fit-content;
-  // padding: 0;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: fit-content;
   padding: 0;
-}
 
-.navOptions--footer {
-  width: auto;
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
 }
 
 [class^="navOptions__item"] {
   font-family: $text_font;
   font-size: 20px;
-  // line-height: 23.5px;
   list-style: none;
   opacity: 70%;
   font-weight: 700;
@@ -30,8 +22,6 @@
   &:first-child {
     padding-top: 48px;
     margin-top: 90px;
-
-    // border-top: 1px solid hsl(220deg, 60%, 15%);
     border-top: 1px solid white;
   }
   a {
@@ -48,33 +38,11 @@
       color: $sec_blue;
     }
   }
-
   &:hover {
     opacity: 100%;
   }
-}
 
-.navOptions--footer {
-  z-index: 1;
-  .navOptions__item--footer {
-    padding: 0;
-    margin: 0 0 32px 0;
-
-    &:first-child {
-      border-top: none;
-      margin-top: 40px;
-      padding-top: 0;
-    }
-  }
-}
-
-//tablet
-@media (min-width: 600px) {
-  [class^="navOptions"] {
-    flex-direction: row;
-  }
-
-  [class^="navOptions__item"] {
+  @media (min-width: 600px) {
     font-size: 15px;
     color: $sec_blue;
     padding: 0;
@@ -91,42 +59,14 @@
     &:nth-child(3) {
       margin-right: 40px;
     }
-    a {
-      &:visited {
-        color: $sec_blue;
-        opacity: 70%;
-      }
-    }
-  }
-
-  .navOptions--footer {
-    .navOptions__item--footer {
-      padding: 0;
-      margin: 0;
-      color: $pri_white;
+    a:visited {
+      color: $sec_blue;
       opacity: 70%;
-
-      a {
-        &:visited {
-          color: $pri_white;
-        }
-      }
-      &:first-child {
-        margin-top: 0;
-        padding-top: 0;
-      }
-
-      &:nth-child(2) {
-        margin: 0 40px 0 40px;
-      }
     }
   }
-}
 
-@media (min-width: 760px) {
-  [class^="navOptions__item"] {
+  @media (min-width: 760px) {
     padding: 0;
-
     &:first-child {
       padding-top: 0;
       margin-top: 0;
@@ -135,15 +75,8 @@
     &:nth-child(2) {
       margin: 0 40px;
     }
-
     &:nth-child(3) {
       margin-right: 85px;
-    }
-  }
-
-  .navOptions__item--footer {
-    &:nth-child(3) {
-      margin-right: 0;
     }
   }
 }
