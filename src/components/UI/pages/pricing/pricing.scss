@@ -1,0 +1,32 @@
+.plan__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*
+
+
+*/
+//Title
+.pricing__title {
+  font-size: 32px;
+  margin-top: 48px;
+}
+
+.pricing__title--package {
+  color: $pri_pink;
+  font-size: 24px;
+  margin: 48px 0 81px 0;
+}
+/*
+
+
+*/
+//Price
+.pricing__price {
+  font-family: $title_font;
+  color: $sec_blue;
+  font-size: 56px;
+  margin: 0;
+}
