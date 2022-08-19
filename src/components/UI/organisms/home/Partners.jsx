@@ -33,7 +33,7 @@ const Partners = () => {
             }
           />
           <div className="partners__container--supp">
-            <Buttons className={"partners"} type={"button"} text={"About Us"} href={"/"}></Buttons>
+            <Buttons className={"partners"} type={"button"} text={"About Us"} href={"/about"}></Buttons>
           </div>
         </div>
       </div>

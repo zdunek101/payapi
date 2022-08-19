@@ -26,6 +26,10 @@
     justify-content: space-around;
   }
 }
+
+.partners__container--supp {
+  z-index: 1;
+}
 /*
 
 
@@ -86,6 +90,12 @@
     }
   }
 
+  &:hover {
+    background-color: $pri_white;
+    .partners__btn__link {
+      color: $sec_blue_dark;
+    }
+  }
   @media (min-width: 600px) {
     .partners__btn__link {
       margin-right: 0;

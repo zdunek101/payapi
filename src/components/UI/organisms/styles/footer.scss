@@ -64,6 +64,10 @@
 .navOptions__item--footer {
   padding: 0;
   margin: 0 0 32px 0;
+  a {
+    color: $pri_white;
+    opacity: 70%;
+  }
 
   &:first-child {
     border-top: none;
@@ -76,6 +80,10 @@
     color: $pri_white;
     opacity: 70%;
 
+    a:hover {
+      color: $pri_white;
+      opacity: 100%;
+    }
     a:visited {
       color: $pri_white;
     }

@@ -30,7 +30,9 @@ const NavBar = () => {
     <>
       <nav className="navBar">
         <span className="logo">
-          <Logo />
+          <a href="/">
+            <Logo />
+          </a>
         </span>
         <span className={`navBar__options ${className === "" ? status : className}`} ref={node}>
           <BurgerMenu status={status} HandleClick={handleClick} />

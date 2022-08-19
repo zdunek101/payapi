@@ -10,7 +10,9 @@ const Footer = () => {
     <>
       <div className="footer__container">
         <span className="logo">
-          <Logo />
+          <a href="/">
+            <Logo />
+          </a>
         </span>
         <NavOptions modification={"--footer"} />
 
