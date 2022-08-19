@@ -4,13 +4,13 @@ const NavOptions = ({ modification }) => {
   return (
     <ul className={`navOptions${modification}`}>
       <li className={`navOptions__item${modification}`}>
-        <a href="/">Pricing</a>
+        <a href="/pricing">Pricing</a>
       </li>
       <li className={`navOptions__item${modification}`}>
-        <a href="/">About</a>
+        <a href="/about">About</a>
       </li>
       <li className={`navOptions__item${modification}`}>
-        <a href="/">Contact</a>
+        <a href="/contact">Contact</a>
       </li>
     </ul>
   );

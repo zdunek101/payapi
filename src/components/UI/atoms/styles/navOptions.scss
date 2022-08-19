@@ -26,7 +26,8 @@
   }
   a {
     text-decoration: none;
-
+    color: $pri_white;
+    opacity: 70%;
     &:visited {
       color: $pri_white;
       opacity: 70%;
@@ -37,9 +38,6 @@
       opacity: 70%;
       color: $sec_blue;
     }
-  }
-  &:hover {
-    opacity: 100%;
   }
 
   @media (min-width: 600px) {
@@ -62,6 +60,25 @@
     a:visited {
       color: $sec_blue;
       opacity: 70%;
+    }
+
+    a {
+      text-decoration: none;
+      color: $sec_blue;
+      opacity: 70%;
+      &:visited {
+        color: $sec_blue;
+        opacity: 70%;
+      }
+      &:hover {
+        opacity: 100%;
+      }
+
+      &:focus,
+      &:active {
+        opacity: 70%;
+        color: $sec_blue;
+      }
     }
   }
 
