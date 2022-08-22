@@ -7,7 +7,6 @@ import finance from "../../../files/assets/home/desktop/icon-personal-finances.s
 import banking from "../../../files/assets/home/desktop/icon-banking-and-coverage.svg";
 import payments from "../../../files/assets/home/desktop/icon-consumer-payments.svg";
 import FormDemo from "../../molecules/FormDemo";
-import Title from "../../atoms/Title";
 
 const Info = () => {
   return (
@@ -61,10 +60,7 @@ const Info = () => {
             }
           />
         </div>
-        <div className="info__container--supp">
-          <Title className={"info__form"} text={"Ready to start?"} />
-          <FormDemo className={"info"} />
-        </div>
+        <FormDemo className={"info"} bottom={true} />
       </div>
     </>
   );
