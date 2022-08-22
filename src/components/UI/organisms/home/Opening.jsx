@@ -8,12 +8,12 @@ const Opening = () => {
     <>
       <div className="opening__container">
         <HomePhone />
-        <div className="opening__container--supp">
+        <div className="opening__scheduleDemo">
           <Title className={"opening"} text={"Start building with our APIs for absolutely free."} />
           <FormDemo className={"opening"} text="Schedule a Demo" />
           <p className="opening__text">
             Have any questions?{" "}
-            <a className="opening__text--link" href="/">
+            <a className="opening__text--link" href="/contact">
               Contact Us
             </a>
           </p>
