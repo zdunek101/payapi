@@ -14,15 +14,11 @@
   margin: 0;
   background-color: transparent;
   border: 1px solid $sec_blue;
-  &:hover {
-    background-color: $sec_blue;
-    .plan__btn__link {
-      color: $pri_white;
-    }
-  }
-}
-
-.plan__btn__link {
   color: $sec_blue;
   text-decoration: none;
+
+  &:hover {
+    background-color: $sec_blue;
+    color: $pri_white;
+  }
 }

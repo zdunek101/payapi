@@ -81,20 +81,15 @@
   background-color: transparent;
   border: 1px solid $pri_white;
   margin-bottom: 80px;
+  background-color: transparent;
+  text-decoration: none;
 
   .partners__btn__link {
-    background-color: transparent;
-    text-decoration: none;
-    &:visited {
-      color: $pri_white;
-    }
   }
 
   &:hover {
     background-color: $pri_white;
-    .partners__btn__link {
-      color: $sec_blue_dark;
-    }
+    color: $sec_blue_dark;
   }
   @media (min-width: 600px) {
     .partners__btn__link {

@@ -1,27 +1,29 @@
 import React from "react";
 
 const Buttons = ({ className, text, type, href }) => {
-  const insideBtn = () => {
+  const btnType = () => {
     if (type === "submit") {
-      return <>{text}</>;
+      return (
+        <>
+          <button type={type} className={`${className}__btn`}>
+            {text}
+          </button>
+        </>
+      );
     } else {
       return (
         <>
           <a href={href} className={`${className}__btn__link`}>
-            {text}
+            <button type={type} className={`${className}__btn`}>
+              {text}
+            </button>
           </a>
         </>
       );
     }
   };
 
-  return (
-    <>
-      <button type={type} className={`${className}__btn`}>
-        {insideBtn()}
-      </button>
-    </>
-  );
+  return <>{btnType()}</>;
 };
 
 export default Buttons;
