@@ -12,7 +12,7 @@ const Pricing = () => {
         <Plan className={"pricing"} mod={"--package"} title={"Basic Plan"} price={"$249.00"} checkAmount={5} />
         <Plan className={"pricing"} mod={"--package"} title={"Premium Plan"} price={"$499.00"} checkAmount={7} />
       </div>
-      <FormDemo className={"pricing"} />
+      <FormDemo className={"pricing"} bottom={true} />
     </>
   );
 };
