@@ -21,7 +21,9 @@
 @import "../organisms/home/styles/info.scss";
 @import "../organisms//styles//footer.scss";
 @import "../organisms/pricing/styles/plan.scss";
+
 @import "../pages/pricing/pricing.scss";
+@import "../pages/about/about.scss";
 
 body {
   background-color: $page_color;
