@@ -1,0 +1,66 @@
+.goals_container {
+  border-top: 1px solid rgba($color: $sec_blue, $alpha: 0.25);
+  border-bottom: 1px solid rgba($color: $sec_blue, $alpha: 0.25);
+  padding: 16px 0 16px 0;
+  margin: 48px 7%;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    align-self: center;
+    width: 100vw;
+  }
+
+  @media (min-width: 1280px) {
+    margin: 72px 7%;
+  }
+}
+
+.goals__box {
+  &:nth-child(2) {
+    margin: 32px 0 32px;
+  }
+
+  @media (min-width: 768px) {
+    border-top: 1px solid rgba($color: $sec_blue, $alpha: 0.25);
+    border-bottom: 1px solid rgba($color: $sec_blue, $alpha: 0.25);
+    padding: 16px 0;
+    width: 223px;
+
+    &:nth-child(2) {
+      margin: 0;
+    }
+
+    @media (min-width: 1280px) {
+      width: 350px;
+      padding: 0;
+    }
+  }
+}
+
+.goals__title {
+  font-family: $text_font;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 70%;
+
+  @media (min-width: 768px) {
+    margin: 0 0 15px 0;
+    text-align: left;
+  }
+}
+
+.goals__text {
+  font-family: $title_font;
+  color: $pri_pink;
+  font-weight: 400;
+  font-size: 56px;
+  text-align: center;
+  margin: 0;
+  line-height: inherit;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
