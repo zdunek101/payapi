@@ -60,7 +60,6 @@ const Info = () => {
             }
           />
         </div>
-        <FormDemo className={"info"} bottom={true} />
       </div>
     </>
   );
