@@ -5,6 +5,19 @@
 
   flex-direction: column;
 
+  &:before {
+    @include backgroundCircle();
+    transform: translate(-15%, -85%);
+
+    @media (min-width: 768px) {
+      transform: translate(10%, -65%);
+    }
+
+    @media (min-width: 768px) {
+      transform: translate(-3%, -65%);
+    }
+  }
+
   @media (min-width: 1280px) {
     margin-top: 82px;
     margin-bottom: 92px;
