@@ -5,7 +5,6 @@ import mobileImage from "../../../files/assets/about/mobile/image-team-members.j
 import tabletImage from "../../../files/assets/about/tablet/image-team-members.jpg";
 import desktopImage from "../../../files/assets/about/desktop/image-team-members.jpg";
 import GoalsContainer from "../../organisms/about/GoalsContainer";
-import FormDemo from "../../molecules/FormDemo";
 
 const About = () => {
   return (
