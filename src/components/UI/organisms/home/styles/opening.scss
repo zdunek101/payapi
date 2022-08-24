@@ -6,6 +6,16 @@
   justify-content: center;
   margin: 32px 0 0 0;
 
+  &::before {
+    @include backgroundCircle();
+
+    @media (min-width: 1280px) {
+      top: 0%;
+      left: 50%;
+      transform: translate(0%, -23%);
+    }
+  }
+
   @media (min-width: 1200px) {
     display: grid;
     grid-template-columns: [left] 50% [right] 50%;
