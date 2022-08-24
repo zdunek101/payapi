@@ -5,6 +5,19 @@
   align-items: center;
   margin-bottom: 80px;
 
+  &:before {
+    @include backgroundCircle();
+    transform: translate(-15%, -85%);
+
+    @media (min-width: 768px) {
+      transform: translate(10%, -65%);
+    }
+
+    @media (min-width: 768px) {
+      transform: translate(-3%, -65%);
+    }
+  }
+
   @media (min-width: 780px) {
     flex-direction: row;
     justify-content: space-between;
@@ -32,8 +45,9 @@
   @media (min-width: 1280px) {
     font-size: 56px;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 80px;
+    width: fit-content;
   }
 }
 
