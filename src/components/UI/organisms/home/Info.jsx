@@ -6,7 +6,6 @@ import simpleUi from "../../../files/assets/home/desktop/illustration-simple-ui.
 import finance from "../../../files/assets/home/desktop/icon-personal-finances.svg";
 import banking from "../../../files/assets/home/desktop/icon-banking-and-coverage.svg";
 import payments from "../../../files/assets/home/desktop/icon-consumer-payments.svg";
-import FormDemo from "../../molecules/FormDemo";
 
 const Info = () => {
   return (
