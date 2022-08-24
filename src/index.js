@@ -8,6 +8,7 @@ import Pricing from "./components/UI/pages/pricing/Pricing";
 import Footer from "./components/UI/organisms/Footer";
 import About from "./components/UI/pages/about/About";
 import Contact from "./components/UI/pages/Contact";
+import FormDemo from "./components/UI/molecules/FormDemo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,8 @@ root.render(
       <Route path="/about" element={<About />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
     </Routes>
+    <FormDemo className={"form"} bottom={true} />
+
     <Footer />
   </BrowserRouter>
 );
