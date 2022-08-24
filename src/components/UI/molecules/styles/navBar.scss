@@ -11,23 +11,6 @@
   grid-template-columns: 50% 50%;
   overflow: hidden;
 
-  &::before {
-    @include backgroundCircle();
-
-    @media (min-width: 600px) {
-      width: 950px;
-      height: 950px;
-    }
-
-    @media (min-width: 1280px) {
-      width: 780px;
-      height: 780px;
-      top: 0%;
-      left: 50%;
-      transform: translate(0%, -23%);
-    }
-  }
-
   @media (min-width: 600px) {
     grid-template-columns: 20% 80%;
   }

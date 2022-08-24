@@ -11,8 +11,16 @@
   top: 0%;
   left: 50%;
   transform: translate(-50%, -70%);
-}
 
+  @media (min-width: 600px) {
+    width: 950px;
+    height: 950px;
+  }
+  @media (min-width: 1280px) {
+    width: 780px;
+    height: 780px;
+  }
+}
 @mixin infoText() {
   text-align: center;
   color: $sec_blue_light;
