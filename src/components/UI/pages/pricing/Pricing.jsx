@@ -33,7 +33,6 @@ const Pricing = () => {
           text={"Get tailored solutions, volume pricing, and dedicated support for your team "}
         />
       </div>
-      <FormDemo className={"pricing"} bottom={true} />
     </>
   );
 };
