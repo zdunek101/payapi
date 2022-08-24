@@ -1,7 +1,6 @@
 import React from "react";
 import Title from "../../atoms/Title";
 import Plan from "../../organisms/pricing/Plan";
-import FormDemo from "../../molecules/FormDemo";
 
 const Pricing = () => {
   return (
