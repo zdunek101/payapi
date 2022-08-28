@@ -1,4 +1,5 @@
 import React, { lazy } from "react";
+import { Route } from "react-router-dom";
 
 const Home = lazy(() => import("../components/UI/pages/home/Home"));
 const Pricing = lazy(() => import("../components/UI/pages/pricing/Pricing"));
@@ -24,4 +25,6 @@ const routes = [
   },
 ];
 
-export default routes;
+export const routeComponents = routes.map(({ path, element }, key) => (
+  <Route exact path={path} element={element} key={key} />
+));

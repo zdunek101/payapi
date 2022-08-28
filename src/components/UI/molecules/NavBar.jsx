@@ -4,6 +4,7 @@ import Buttons from "../atoms/Buttons";
 import NavOptions from "../atoms/NavOptions";
 import { BurgerMenu, UseOnClickOutside } from "../atoms/BurgerMenu";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const node = useRef();
@@ -30,13 +31,13 @@ const NavBar = () => {
     <>
       <nav className="navBar">
         <span className="logo">
-          <a href="/">
+          <Link to="/">
             <Logo />
-          </a>
+          </Link>
         </span>
         <span className={`navBar__options ${className === "" ? status : className}`} ref={node}>
           <BurgerMenu status={status} HandleClick={handleClick} />
-          <NavOptions modification={""} />
+          <NavOptions modification={""} handleClick={handleClick} />
           <Buttons component={"navBar"} text={"Schedule a Demo"} />
         </span>
       </nav>
