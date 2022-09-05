@@ -1,7 +1,7 @@
 import React, { lazy } from "react";
 import { Route } from "react-router-dom";
+import Home from "../components/UI/pages/home/Home";
 
-const Home = lazy(() => import("../components/UI/pages/home/Home"));
 const Pricing = lazy(() => import("../components/UI/pages/pricing/Pricing"));
 const About = lazy(() => import("../components/UI/pages/about/About"));
 const Contact = lazy(() => import("../components/UI/pages/contact/Contact"));
