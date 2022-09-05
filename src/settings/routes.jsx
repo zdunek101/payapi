@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 const Home = lazy(() => import("../components/UI/pages/home/Home"));
 const Pricing = lazy(() => import("../components/UI/pages/pricing/Pricing"));
 const About = lazy(() => import("../components/UI/pages/about/About"));
-const Contact = lazy(() => import("../components/UI/pages/Contact"));
+const Contact = lazy(() => import("../components/UI/pages/contact/Contact"));
 
 const routes = [
   {
