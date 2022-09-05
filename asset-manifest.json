@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/payapi/static/css/main.0701c932.css",
-    "main.js": "/payapi/static/js/main.77805635.js",
-    "static/js/48.471a80f4.chunk.js": "/payapi/static/js/48.471a80f4.chunk.js",
-    "static/js/13.eaac9915.chunk.js": "/payapi/static/js/13.eaac9915.chunk.js",
-    "static/js/118.1c267dd9.chunk.js": "/payapi/static/js/118.1c267dd9.chunk.js",
+    "main.js": "/payapi/static/js/main.8235c64d.js",
+    "static/js/13.6d98b399.chunk.js": "/payapi/static/js/13.6d98b399.chunk.js",
+    "static/js/118.1ef0d208.chunk.js": "/payapi/static/js/118.1ef0d208.chunk.js",
     "static/js/120.0e03a170.chunk.js": "/payapi/static/js/120.0e03a170.chunk.js",
     "static/js/67.76b86bea.chunk.js": "/payapi/static/js/67.76b86bea.chunk.js",
     "static/media/illustration-easy-to-implement-v2.svg": "/payapi/static/media/illustration-easy-to-implement-v2.04e03229c1bc37e7afebf4b12cdece31.svg",
@@ -34,15 +33,14 @@
     "static/media/facebook.svg": "/payapi/static/media/facebook.f37142b6677d786fbd43b109d00b2508.svg",
     "static/media/icon-check.svg": "/payapi/static/media/icon-check.e88dc5fa8fcdfef4fdc9060d57c99a7c.svg",
     "main.0701c932.css.map": "/payapi/static/css/main.0701c932.css.map",
-    "main.77805635.js.map": "/payapi/static/js/main.77805635.js.map",
-    "48.471a80f4.chunk.js.map": "/payapi/static/js/48.471a80f4.chunk.js.map",
-    "13.eaac9915.chunk.js.map": "/payapi/static/js/13.eaac9915.chunk.js.map",
-    "118.1c267dd9.chunk.js.map": "/payapi/static/js/118.1c267dd9.chunk.js.map",
+    "main.8235c64d.js.map": "/payapi/static/js/main.8235c64d.js.map",
+    "13.6d98b399.chunk.js.map": "/payapi/static/js/13.6d98b399.chunk.js.map",
+    "118.1ef0d208.chunk.js.map": "/payapi/static/js/118.1ef0d208.chunk.js.map",
     "120.0e03a170.chunk.js.map": "/payapi/static/js/120.0e03a170.chunk.js.map",
     "67.76b86bea.chunk.js.map": "/payapi/static/js/67.76b86bea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0701c932.css",
-    "static/js/main.77805635.js"
+    "static/js/main.8235c64d.js"
   ]
 }
