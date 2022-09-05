@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./pages/main.scss";
 import NavBar from "./molecules/NavBar";
 import Footer from "./organisms/Footer";
@@ -12,7 +12,10 @@ const App = () => {
       <BrowserRouter>
         <NavBar />
         <Suspense>
-          <Routes>{routeComponents}</Routes>
+          <Routes>
+            {routeComponents}
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
           <FormDemo className={"form"} bottom={true} />
           <Footer />
         </Suspense>
