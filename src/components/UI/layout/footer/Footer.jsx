@@ -25,13 +25,13 @@ const Footer = () => {
         <NavList footer={true} />
         <SocialBox>
           <a href="/">
-            <img src={facebook} alt={"facebook icon"} className="social__icon"></img>
+            <img src={facebook} alt={"facebook icon"} className="social__icon" style={{ marginLeft: "24px" }}></img>
           </a>
           <a href="/">
-            <img src={twitter} alt={"twitter icon"} className="social__icon"></img>
+            <img src={twitter} alt={"twitter icon"} className="social__icon" style={{ marginLeft: "24px" }}></img>
           </a>
           <a href="/">
-            <img src={linkedin} alt={"linkedin icon"} className="social__icon"></img>
+            <img src={linkedin} alt={"linkedin icon"} className="social__icon" style={{ marginLeft: "24px" }}></img>
           </a>
         </SocialBox>
       </Container>
