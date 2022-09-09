@@ -15,3 +15,7 @@ https://zdunek101.github.io/payapi/
 :heavy_check_mark: Yup<br>
 :heavy_check_mark: React Router<br>
 
+### Figma
+
+In main folder you can download figma file :)
+
