@@ -7,7 +7,7 @@ import Buttons from "../../../components/buttons/Buttons";
 const Partners = () => {
   return (
     <>
-      <PartnersContainer className="partners__container">
+      <PartnersContainer>
         <PartnersLogo isBlack={false} />
         <PartnerInfo>
           <TitleH3>Who we work with</TitleH3>
