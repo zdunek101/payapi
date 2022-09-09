@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/payapi/static/css/main.fa4bd1d7.css",
-    "main.js": "/payapi/static/js/main.2dc00331.js",
+    "main.js": "/payapi/static/js/main.fa52d854.js",
     "static/js/697.e52b87a4.chunk.js": "/payapi/static/js/697.e52b87a4.chunk.js",
     "static/js/795.d35c5326.chunk.js": "/payapi/static/js/795.d35c5326.chunk.js",
     "static/js/227.95942807.chunk.js": "/payapi/static/js/227.95942807.chunk.js",
@@ -35,7 +35,7 @@
     "static/media/facebook.svg": "/payapi/static/media/facebook.f37142b6677d786fbd43b109d00b2508.svg",
     "static/media/icon-check.svg": "/payapi/static/media/icon-check.e88dc5fa8fcdfef4fdc9060d57c99a7c.svg",
     "main.fa4bd1d7.css.map": "/payapi/static/css/main.fa4bd1d7.css.map",
-    "main.2dc00331.js.map": "/payapi/static/js/main.2dc00331.js.map",
+    "main.fa52d854.js.map": "/payapi/static/js/main.fa52d854.js.map",
     "697.e52b87a4.chunk.js.map": "/payapi/static/js/697.e52b87a4.chunk.js.map",
     "795.d35c5326.chunk.js.map": "/payapi/static/js/795.d35c5326.chunk.js.map",
     "227.95942807.chunk.js.map": "/payapi/static/js/227.95942807.chunk.js.map",
@@ -45,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.fa4bd1d7.css",
-    "static/js/main.2dc00331.js"
+    "static/js/main.fa52d854.js"
   ]
 }
