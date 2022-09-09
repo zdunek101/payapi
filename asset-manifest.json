@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/payapi/static/css/main.0701c932.css",
-    "main.js": "/payapi/static/js/main.373b647f.js",
-    "static/js/48.471a80f4.chunk.js": "/payapi/static/js/48.471a80f4.chunk.js",
-    "static/js/13.eaac9915.chunk.js": "/payapi/static/js/13.eaac9915.chunk.js",
-    "static/js/118.1c267dd9.chunk.js": "/payapi/static/js/118.1c267dd9.chunk.js",
-    "static/js/120.0e03a170.chunk.js": "/payapi/static/js/120.0e03a170.chunk.js",
-    "static/js/67.76b86bea.chunk.js": "/payapi/static/js/67.76b86bea.chunk.js",
+    "main.css": "/payapi/static/css/main.fa4bd1d7.css",
+    "main.js": "/payapi/static/js/main.03de8ea9.js",
+    "static/js/697.b0fdd8a8.chunk.js": "/payapi/static/js/697.b0fdd8a8.chunk.js",
+    "static/js/795.d35c5326.chunk.js": "/payapi/static/js/795.d35c5326.chunk.js",
+    "static/js/227.95942807.chunk.js": "/payapi/static/js/227.95942807.chunk.js",
+    "static/js/58.0cca39be.chunk.js": "/payapi/static/js/58.0cca39be.chunk.js",
+    "static/js/83.9023b1d8.chunk.js": "/payapi/static/js/83.9023b1d8.chunk.js",
+    "static/js/289.0ed74c50.chunk.js": "/payapi/static/js/289.0ed74c50.chunk.js",
     "static/media/illustration-easy-to-implement-v2.svg": "/payapi/static/media/illustration-easy-to-implement-v2.04e03229c1bc37e7afebf4b12cdece31.svg",
     "static/media/image-team-members.jpg": "/payapi/static/media/image-team-members.29ea3022391f47fbb8d3.jpg",
     "static/media/iphone.svg": "/payapi/static/media/iphone.f096a3cf234eb9128621640872258fe8.svg",
@@ -33,16 +34,17 @@
     "static/media/linkedin.svg": "/payapi/static/media/linkedin.27f69bed5cf4d882a491222f16652e6e.svg",
     "static/media/facebook.svg": "/payapi/static/media/facebook.f37142b6677d786fbd43b109d00b2508.svg",
     "static/media/icon-check.svg": "/payapi/static/media/icon-check.e88dc5fa8fcdfef4fdc9060d57c99a7c.svg",
-    "main.0701c932.css.map": "/payapi/static/css/main.0701c932.css.map",
-    "main.373b647f.js.map": "/payapi/static/js/main.373b647f.js.map",
-    "48.471a80f4.chunk.js.map": "/payapi/static/js/48.471a80f4.chunk.js.map",
-    "13.eaac9915.chunk.js.map": "/payapi/static/js/13.eaac9915.chunk.js.map",
-    "118.1c267dd9.chunk.js.map": "/payapi/static/js/118.1c267dd9.chunk.js.map",
-    "120.0e03a170.chunk.js.map": "/payapi/static/js/120.0e03a170.chunk.js.map",
-    "67.76b86bea.chunk.js.map": "/payapi/static/js/67.76b86bea.chunk.js.map"
+    "main.fa4bd1d7.css.map": "/payapi/static/css/main.fa4bd1d7.css.map",
+    "main.03de8ea9.js.map": "/payapi/static/js/main.03de8ea9.js.map",
+    "697.b0fdd8a8.chunk.js.map": "/payapi/static/js/697.b0fdd8a8.chunk.js.map",
+    "795.d35c5326.chunk.js.map": "/payapi/static/js/795.d35c5326.chunk.js.map",
+    "227.95942807.chunk.js.map": "/payapi/static/js/227.95942807.chunk.js.map",
+    "58.0cca39be.chunk.js.map": "/payapi/static/js/58.0cca39be.chunk.js.map",
+    "83.9023b1d8.chunk.js.map": "/payapi/static/js/83.9023b1d8.chunk.js.map",
+    "289.0ed74c50.chunk.js.map": "/payapi/static/js/289.0ed74c50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0701c932.css",
-    "static/js/main.373b647f.js"
+    "static/css/main.fa4bd1d7.css",
+    "static/js/main.03de8ea9.js"
   ]
 }
