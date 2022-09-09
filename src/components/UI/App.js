@@ -1,10 +1,9 @@
 import React, { Suspense } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import "./pages/main.scss";
-import NavBar from "./molecules/NavBar";
-import Footer from "./organisms/Footer";
+import "../../settings/normalize.scss";
+import NavBar from "./layout/navigation/NavBar";
 import { routeComponents } from "../../settings/routes";
-import FormDemo from "./molecules/FormDemo";
+import Footer from "./layout/footer/Footer";
 
 const App = () => {
   return (
@@ -16,7 +15,6 @@ const App = () => {
             {routeComponents}
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
-          <FormDemo className={"form"} bottom={true} />
           <Footer />
         </Suspense>
       </BrowserRouter>

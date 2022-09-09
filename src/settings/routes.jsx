@@ -1,10 +1,10 @@
 import React, { lazy } from "react";
 import { Route } from "react-router-dom";
 
-const Home = lazy(() => import("../components/UI/pages/home/Home"));
-const Pricing = lazy(() => import("../components/UI/pages/pricing/Pricing"));
-const About = lazy(() => import("../components/UI/pages/about/About"));
-const Contact = lazy(() => import("../components/UI/pages/contact/Contact"));
+const Home = lazy(() => import("../components/UI/pages/home/Index"));
+const Pricing = lazy(() => import("../components/UI/pages/pricing/Index"));
+const About = lazy(() => import("../components/UI/pages/about/Index"));
+const Contact = lazy(() => import("../components/UI/pages/contact/Index"));
 
 const routes = [
   {
