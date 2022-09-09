@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import checkIcon from "../../../../files/assets/shared/desktop/icon-check.svg";
+import checkIcon from "../../../files/assets/shared/desktop/icon-check.svg";
 import { Button } from "../../../components/buttons/styles/style";
 import { FontDefault, variables } from "../../../../../settings/mainstyles";
 
