@@ -56,9 +56,7 @@ export const LogoBox = styled.div`
 export const SocialBox = styled.div`
   padding-bottom: 55px;
   z-index: 1;
-  .social_icon {
-    margin-left: 24px;
-  }
+
   @media (min-width: 600px) {
     padding-bottom: 0;
   }
