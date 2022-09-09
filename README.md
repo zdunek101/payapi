@@ -8,10 +8,10 @@ https://zdunek101.github.io/payapi/
 
 ### Stack
 
-*React
-*Sass
-*Components Styled
-*Formik
-*Yup
-*React Router
+:heavy_check_mark: React
+:heavy_check_mark: Sass
+:heavy_check_mark: Components Styled
+:heavy_check_mark: Formik
+:heavy_check_mark: Yup
+:heavy_check_mark: React Router
 
